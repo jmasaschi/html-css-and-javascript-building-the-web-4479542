@@ -9,7 +9,7 @@ function dragElement(terrariumElement) {
         pos4 = e.clientY;
        
 
- document.onpointermove = elementDrag;
+        document.onpointermove = elementDrag;
         document.onpointerup = stopElementDrag;
     }
 
